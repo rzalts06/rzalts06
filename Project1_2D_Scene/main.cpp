@@ -1,15 +1,6 @@
-#include "../Project2_Pong_Variation/cs3113.h"
+#include "cs3113.h"
 #include <math.h>
 
-/**
-* Author: Rachelle Zaltsman
-* Assignment: Project 1: Simple 2D Scene
-* Date due: [02/14/2026]
-* I pledge that I have completed this assignment without
-* collaborating with anyone else, in conformance with the
-* NYU School of Engineering Policies and Procedures on
-* Academic Misconduct.
-**/
 
 // Enums
 enum Background {DEBUT, FEARLESS, SPEAKNOW, REDTV, SEAGULL, REP, LOVER, FOLKLORE, EVERMORE, MIDNIGHTS, TTPD, TLOAS};
@@ -54,11 +45,11 @@ constexpr char BG_DEBUT[] = "#A4C9A5",
                BG_TTPD[] = "#FFFFFF",
                BG_TLOAS[] = "#E15921";
 
-constexpr char TS_LOGO[] = "/Users/rachelle/Documents/CS3113/TS LOGO.png",
-               TS_LOVER_RECORD[] = "/Users/rachelle/Documents/CS3113/TS Lover Record.png",
-               TS_FULL_BODY[] = "/Users/rachelle/Documents/CS3113/TS 1989.png",
-               SC_FULL_BODY[] = "/Users/rachelle/Documents/CS3113/SC SNS.png",
-               SC_LOGO[] = "/Users/rachelle/Documents/CS3113/SC LOGO.png";
+constexpr char TS_LOGO[] = "Textures/TS LOGO.png",
+               TS_LOVER_RECORD[] = "Textures/TS Lover Record.png",
+               TS_FULL_BODY[] = "Textures/TS 1989.png",
+               SC_FULL_BODY[] = "Textures/SC SNS.png",
+               SC_LOGO[] = "Textures/SC LOGO.png";
 
 // Global Variables
 AppStatus gAppStatus = RUNNING;

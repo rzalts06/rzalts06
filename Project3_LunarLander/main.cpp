@@ -2,16 +2,6 @@
 #include "P3Entity.h"
 using namespace std;
 
-/**
-* Author: Rachelle Zaltsman
-* Assignment: Lunar Lander
-* Date due: 03/14/2026
-* I pledge that I have completed this assignment without
-* collaborating with anyone else, in conformance with the
-* NYU School of Engineering Policies and Procedures on
-* Academic Misconduct.
-**/
-
 
 // Global Constants
 enum Level {L0, L1, L2, L3};

@@ -1,15 +1,6 @@
-#include "/Users/rachelle/Documents/CS3113/Project2_Pong_Variation/cs3113.h"
+#include "Project2_Pong_Variation/cs3113.h"
 #include <math.h>
 
-/**
-* Author: Rachelle Zaltsman
-* Assignment: Project 2: Pong Variations
-* Date due: [02/28/2026]
-* I pledge that I have completed this assignment without
-* collaborating with anyone else, in conformance with the
-* NYU School of Engineering Policies and Procedures on
-* Academic Misconduct.
-**/
 
 // Enums
 enum Score { ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};

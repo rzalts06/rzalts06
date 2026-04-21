@@ -1,0 +1,25 @@
+#include "LoseScene2.h"
+
+#ifndef CS3113_WINSCENE_H
+#define CS3113_WINSCENE_H
+
+class WinScreen : public Scene {
+public:
+    static constexpr float FIXED_TIMESTEP = 1.0f / 60.0f;
+    float mCurrEnergy = 100.0f,
+          mMaxEnergy = 100.0f;
+
+    WinScreen();
+    WinScreen(Vector2 origin, const char *bgHexCode);
+    ~WinScreen();
+
+    float getCurrEnergy() const {return mCurrEnergy;}
+    float getMaxEnergy() const {return mMaxEnergy;}
+
+    void initialise() override;
+    void update(float deltaTime) override;
+    void render() override;
+    void shutdown() override;
+};
+
+#endif //CS3113_WINSCENE_H
